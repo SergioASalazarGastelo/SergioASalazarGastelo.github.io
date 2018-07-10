@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SalazarGastelo.com</title>
+    <description>Transformación Digital CON CALIDAD, RESPONSABILIDAD, HONESTIDAD E INTEGRIDAD EN TECNOLOGÍAS DE INFORMACIÓN. Desarrollo de software a medida. Gestión Documental. Enterprise Content Management. Bussines Process Management. Digitalización. Digitación. Transformación digital.
+</description>
+    <link>https://salazargastelo.com/</link>
+    <atom:link href="https://salazargastelo.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 10 Jul 2018 17:06:10 -0500</pubDate>
+    <lastBuildDate>Tue, 10 Jul 2018 17:06:10 -0500</lastBuildDate>
+    <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>Estimar no es timar</title>
+        <description>&lt;p&gt;Hace poco leía un artículo acerca de los métodos que existen para estimar un proyecto. Hay de los totalmente empíricos, es decir, basados netamente en la experiencia del experto o consultor (casi como un dedo mojado secado al viento), como de aquellos un tanto más “científicos” que intentando ser más precisos, se basan en una base de datos de proyectos pasados y valoraciones numéricas. Sin embargo, al fin y al cabo, el número que se obtiene finalmente es una, de tantas, aproximaciones a la realidad. En este caso, a la realidad del esfuerzo que implicará un proyecto.&lt;/p&gt;
+
+&lt;p&gt;Esta aproximación a la realidad inherentemente conlleva una desviación al momento de la ejecución. Desviación que al ser medida puede medirse también la “calidad” de la estimación. Sí, calidad entre comillas, dado que cualquier aproximación a la realidad no se podrá comparar jamás a la realidad misma, por más esfuerzo que pongamos en ello. Más aún si consideramos que las personas pueden tener diferentes puntos de vista sobre una misma realidad (punto de origen de las famosas “controversias”) y por ende la “calidad” de la estimación también.&lt;/p&gt;
+
+&lt;p&gt;Pongamos un ejemplo. Un proyecto cuyo objetivo es la validación y copia de la estructura y registros de una base de datos recientemente recuperada a partir de un disco duro con problemas físicos de integridad de datos. Por su naturaleza, un archivo de base de datos recuperada de un disco duro con estos problemas tiene una alta probabilidad de que su estructura interna o algunos registros estén corruptos, es decir, que tenga información que se haya perdido para siempre y por lo tanto, la actividad de recuperación implique el uso de otras fuentes (navegar entre diversos archivos de backup, buscar el origen de las transacciones, etc.) y por ende la curva de esfuerzo tenga una tendencia asintótica hacia el infinito.  Estoy poniendo un caso extremo, pero de hecho real y que creo que servirá para mostrar mi punto de vista (mi propia visión de la realidad, que por cierto no altera a la realidad misma en lo más mínimo).&lt;/p&gt;
+
+&lt;p&gt;La recomendación para estimar este tipo de proyectos es NO estimar. Pero dado que en las organizaciones la asignación de recursos se dá en el contexto de un presupuesto aprobado, al menos te pedirán una “bolsa de horas probable” la cual, finalmente, igual es una estimación. Entonces, dados en el esfuerzo de estimar lo inestimable, habrá que hacerlo de la mejor forma posible. Se incluyen las horas/hombre del analista variable, también la posible necesidad de la infraestructura (que podría utilizarse o no dependiendo del caso), de un analista de infraestructura, los servicios de restauración de información y horas de procesamiento en servidores. Finalmente obtenemos un número, que para propósitos de simplificación le pondremos $100.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, al final del proyecto, sólo se necesitó la labor del analista, que resultó en $40 de acuerdo a su carga de horas. Entonces, si miramos la calidad de la estimación, ¿fue una buena o mala estimación?&lt;/p&gt;
+
+&lt;p&gt;Desde el punto de vista de quien paga el proyecto, pues en este caso específico puede llegar a ser irrelevante, dado que finalmente terminó pagando bastante menos. Sin embargo, si nos ponemos los lentes de la PMO y miramos los números fríamente entre una miríada de proyectos, la desviación es tan grande que debiera resultar en que efectivamente la calidad de la estimación fue muy baja y que pudo afectar la “venta” del proyecto. Desde el punto de vista de quien estimó, la desviación es aceptable dada la alta variabilidad del proyecto en cuestión y por ende, igual es una buena estimación.&lt;/p&gt;
+
+&lt;p&gt;Claro, cualquiera me diría que lo recomendable en este caso es partir el proyecto en dos, una primera fase de diagnóstico y una segunda ya de ejecución con un monto más cercano a lo real. Pero el ejemplo, sin dejar de ser real, pretende ilustrar los puntos de vista que pueden surgir al analizar la “calidad” de la estimación de un proyecto.&lt;/p&gt;
+
+&lt;p&gt;Ahora, en organizaciones donde el “valor estimado” casi que va en un contrato (es decir, es un monto comprometido) sustentar una desviación hacia arriba en el costo de la ejecución se considera casi un intento de perjuicio y somete a quien sustenta, muchas veces, a interacciones (entiéndase reuniones de resolución de controversias) que resultan más costosas que el mismo valor del control de cambio a querer sustentar.&lt;/p&gt;
+
+&lt;p&gt;Mi visión personal, es que una estimación, al fin y al cabo, es una estimación (perdón por la cacofonía, pero intento resaltar el significado literal de la palabra). Es decir, lo mejor que razonablemente se puede pedir como predicción del futuro. Sin recurrir por supuesto a la cartomancia, a la fuerza o al horóscopo del día, se intenta predecir lo mejor posible, para tener un marco aproximado de inversión. Pero no es la regla escrita en piedra, al menos no debería. Las organizaciones deben aceptar que la realidad suele ser distinta, y a veces, muy distinta de lo que los que intentamos ser “pitonisos de proyectos” podemos predecir. Aceptando este hecho seríamos más productivos, mejoraría la relación proveedor-cliente y de paso ahorraríamos varios $ en reuniones tensas e inútiles a nuestras organizaciones.&lt;/p&gt;
+
+&lt;p&gt;Así mismo, un análisis de la “calidad” de la estimación basado únicamente en el índice de desviación, pierde, desde mi punto de vista, total sentido. No digo que no debería medirse, sino que es necesario complementarse con más indicadores que permitan tener una visión total de la estimación y del proyecto ejecutado (y de esa forma poder quitarle las comillas a la palabrita cuando presentemos los ratios de calidad de las estimaciones de cara a la evaluación final).&lt;/p&gt;
+
+&lt;p&gt;¿Cuáles serían estos indicadores? Pues del ejemplo resulta obvio que se puede agregar un índice de variabilidad o complejidad, no sólo medida por el monto de inversión, sino por los riesgos del proyecto (por ejemplo necesidad de uso de tecnología en proceso de adopción, uso de proveedores nuevos y off-shore, número de proveedores a involucrar, etc.). Si a alguien se le ocurren más o tiene otra visión, pues bienvenido.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 Jul 2018 13:02:00 -0500</pubDate>
+        <link>https://salazargastelo.com/estimar-no-es-timar.html</link>
+        <guid isPermaLink="true">https://salazargastelo.com/estimar-no-es-timar.html</guid>
+        
+        
+        <category>ingenieria</category>
+        
+        <category>proyectos</category>
+        
+        <category>pmo</category>
+        
+        <category>consultoria</category>
+        
+      </item>
+    
+      <item>
+        <title>¿Qué nos hace buenos Ingenieros de Software?</title>
+        <description>&lt;p&gt;En nuestra vida diaria tomamos decisiones basados en los &lt;code class=&quot;highlighter-rouge&quot;&gt;modelos mentales&lt;/code&gt; que construimos del ambiente que nos rodea. En la medida en que seamos capaces de &lt;code class=&quot;highlighter-rouge&quot;&gt;abstraer&lt;/code&gt; adecuadamente nuestro entorno, las decisiones que tomemos serán &lt;code class=&quot;highlighter-rouge&quot;&gt;más efectivas&lt;/code&gt; y nuestros &lt;code class=&quot;highlighter-rouge&quot;&gt;éxitos&lt;/code&gt;  más frecuentes.&lt;/p&gt;
+
+&lt;p&gt;En la pintura, en la música, en la poesía, la capacidad de abstracción humana puede mostrarnos lo sublime de la esencia de las cosas, prescindiendo de aquellos detalles que pueden distraer nuestros sentidos. Matisse, en su “Mujer desnuda” es un ejemplo maravilloso de abstracción.&lt;/p&gt;
+
+&lt;p&gt;Y así como en las artes, en la Ingeniería y específicamente en la Ingeniería de Software, la capacidad de eliminar los detalles superficiales para quedarnos con un modelo general que simplifique el entendimiento de un problema complejo, es vital.&lt;/p&gt;
+
+&lt;p&gt;Pero ¿qué es la abstracción? ¿ Por qué se torna tan importante desarrollar estas habilidades para el éxito de nuestros proyectos, y mirando a largo plazo, de nuestras carreras?&lt;/p&gt;
+
+&lt;p&gt;La abstracción tiene 2 aspectos, el primero que enfatiza el proceso de remover todos los detalles superfluos con el fin de simplificar la realidad problemática que estamos atacando y la segunda, que incide en el proceso de generalización de aquellas propiedades comunes para extraer conceptos generales y sus propiedades (Por ejemplo, clases y sus métodos en POO)&lt;/p&gt;
+
+&lt;p&gt;De este proceso de abstracción obtenemos un modelo simplificado de la realidad compleja, en el que nos basaremos para diseñar e implementar nuestras soluciones de automatización o comunicaciones. De nuestra capacidad de abstracción depende, entonces, el éxito de nuestros proyectos.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo ¿qué estamos haciendo para mejorar estas habilidades? ¿Existe alguna técnica, método, disciplina o principio fundamental que nos ayude en ese sentido?&lt;/p&gt;
+
+&lt;p&gt;Al parecer, las capacidades de abstracción se desarrollan en la adolescencia y solamente el 30% a 35% de los adolescentes logran alcanzar esa habilidad de abstracción que se requiere.&lt;/p&gt;
+
+&lt;p&gt;Sin embargo, el entrenamiento es indispensable. Los ejercicios que se plantean en los cursos de modelamiento y programación orientada a objetos (POO) son fundamentales para la práctica de la profesión en el futuro. Estos cursos deben ser fortalecidos y ampliados en contenido para el entrenamiento del futuro ingeniero de software. Igual, en los cursos de postgrado y maestría, en los que la capacidad de eliminar y discernir los detalles superfluos de los fundamentales, debe ser requisito indispensable para la obtención del grado. Como entrenamiento, tal vez puedan modelar el proceso de pensamiento que los lleva a cada uno de ustedes a leer este artículo.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 07 Jul 2018 09:36:23 -0500</pubDate>
+        <link>https://salazargastelo.com/buenosingenieros.html</link>
+        <guid isPermaLink="true">https://salazargastelo.com/buenosingenieros.html</guid>
+        
+        
+        <category>ingenieria</category>
+        
+        <category>proyectos</category>
+        
+        <category>desarrollo</category>
+        
+        <category>software</category>
+        
+      </item>
+    
+  </channel>
+</rss>

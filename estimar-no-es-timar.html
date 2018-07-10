@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html class="no-js">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>SalazarGastelo.com | Estimar no es timar</title>
+    <meta name="description" content="Hace poco leía un artículo acerca de los métodos que existen para estimar un proyecto. Hay de los totalmente empíricos, es decir, basados netamente en la exp...">
+
+    <link rel="stylesheet" href="/css/main.css">
+
+    <link rel="canonical" href="https://salazargastelo.com/estimar-no-es-timar.html">
+    <link rel="alternate" type="application/rss+xml" title="SalazarGastelo.com" href="https://salazargastelo.com/feed.xml" />
+
+    <!--[if lt IE 9]>
+        <script src="/js/vendor/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+
+
+  <body class="">
+    <!-- if the user has javascript disabled they can still use the menu -->
+<noscript>
+    <div class="no-js-menu clearfix">
+        <ul>
+            
+                <li><i class="fa fa-home"></i><a href="/home-alt">Principal</a></li>
+            
+                <li><i class="fa fa-anchor"></i><a href="/about">Acerca de</a></li>
+            
+                <li><i class="fa fa-plane"></i><a href="/contact">Contacto</a></li>
+            
+                <li><i class="fa fa-user"></i><a href="/cv/index.html">Sergio Salazar</a></li>
+            
+        </ul>
+    </div>
+</noscript>
+<!-- end no script -->
+
+    <header class="hero-image" style='background-image: url(/img/img/matisse2.jpg);'>
+    <span class="menu-trigger animated fadeInDown">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </span>
+
+    <div id="menu-target">
+    <ul>
+        
+            <li><i class="fa fa-home"></i><a href="/home-alt">Principal</a></li>
+        
+            <li><i class="fa fa-anchor"></i><a href="/about">Acerca de</a></li>
+        
+            <li><i class="fa fa-plane"></i><a href="/contact">Contacto</a></li>
+        
+            <li><i class="fa fa-user"></i><a href="/cv/index.html">Sergio Salazar</a></li>
+        
+    </ul>
+</div>
+
+</header>
+
+<main class="container">
+    <div class="row">
+        <div class="col-xs-12 col-md-8 single-content-sidebar">
+
+            <h1>Estimar no es timar</h1>
+
+            <p>Hace poco leía un artículo acerca de los métodos que existen para estimar un proyecto. Hay de los totalmente empíricos, es decir, basados netamente en la experiencia del experto o consultor (casi como un dedo mojado secado al viento), como de aquellos un tanto más “científicos” que intentando ser más precisos, se basan en una base de datos de proyectos pasados y valoraciones numéricas. Sin embargo, al fin y al cabo, el número que se obtiene finalmente es una, de tantas, aproximaciones a la realidad. En este caso, a la realidad del esfuerzo que implicará un proyecto.</p>
+
+<p>Esta aproximación a la realidad inherentemente conlleva una desviación al momento de la ejecución. Desviación que al ser medida puede medirse también la “calidad” de la estimación. Sí, calidad entre comillas, dado que cualquier aproximación a la realidad no se podrá comparar jamás a la realidad misma, por más esfuerzo que pongamos en ello. Más aún si consideramos que las personas pueden tener diferentes puntos de vista sobre una misma realidad (punto de origen de las famosas “controversias”) y por ende la “calidad” de la estimación también.</p>
+
+<p>Pongamos un ejemplo. Un proyecto cuyo objetivo es la validación y copia de la estructura y registros de una base de datos recientemente recuperada a partir de un disco duro con problemas físicos de integridad de datos. Por su naturaleza, un archivo de base de datos recuperada de un disco duro con estos problemas tiene una alta probabilidad de que su estructura interna o algunos registros estén corruptos, es decir, que tenga información que se haya perdido para siempre y por lo tanto, la actividad de recuperación implique el uso de otras fuentes (navegar entre diversos archivos de backup, buscar el origen de las transacciones, etc.) y por ende la curva de esfuerzo tenga una tendencia asintótica hacia el infinito.  Estoy poniendo un caso extremo, pero de hecho real y que creo que servirá para mostrar mi punto de vista (mi propia visión de la realidad, que por cierto no altera a la realidad misma en lo más mínimo).</p>
+
+<p>La recomendación para estimar este tipo de proyectos es NO estimar. Pero dado que en las organizaciones la asignación de recursos se dá en el contexto de un presupuesto aprobado, al menos te pedirán una “bolsa de horas probable” la cual, finalmente, igual es una estimación. Entonces, dados en el esfuerzo de estimar lo inestimable, habrá que hacerlo de la mejor forma posible. Se incluyen las horas/hombre del analista variable, también la posible necesidad de la infraestructura (que podría utilizarse o no dependiendo del caso), de un analista de infraestructura, los servicios de restauración de información y horas de procesamiento en servidores. Finalmente obtenemos un número, que para propósitos de simplificación le pondremos $100.</p>
+
+<p>Sin embargo, al final del proyecto, sólo se necesitó la labor del analista, que resultó en $40 de acuerdo a su carga de horas. Entonces, si miramos la calidad de la estimación, ¿fue una buena o mala estimación?</p>
+
+<p>Desde el punto de vista de quien paga el proyecto, pues en este caso específico puede llegar a ser irrelevante, dado que finalmente terminó pagando bastante menos. Sin embargo, si nos ponemos los lentes de la PMO y miramos los números fríamente entre una miríada de proyectos, la desviación es tan grande que debiera resultar en que efectivamente la calidad de la estimación fue muy baja y que pudo afectar la “venta” del proyecto. Desde el punto de vista de quien estimó, la desviación es aceptable dada la alta variabilidad del proyecto en cuestión y por ende, igual es una buena estimación.</p>
+
+<p>Claro, cualquiera me diría que lo recomendable en este caso es partir el proyecto en dos, una primera fase de diagnóstico y una segunda ya de ejecución con un monto más cercano a lo real. Pero el ejemplo, sin dejar de ser real, pretende ilustrar los puntos de vista que pueden surgir al analizar la “calidad” de la estimación de un proyecto.</p>
+
+<p>Ahora, en organizaciones donde el “valor estimado” casi que va en un contrato (es decir, es un monto comprometido) sustentar una desviación hacia arriba en el costo de la ejecución se considera casi un intento de perjuicio y somete a quien sustenta, muchas veces, a interacciones (entiéndase reuniones de resolución de controversias) que resultan más costosas que el mismo valor del control de cambio a querer sustentar.</p>
+
+<p>Mi visión personal, es que una estimación, al fin y al cabo, es una estimación (perdón por la cacofonía, pero intento resaltar el significado literal de la palabra). Es decir, lo mejor que razonablemente se puede pedir como predicción del futuro. Sin recurrir por supuesto a la cartomancia, a la fuerza o al horóscopo del día, se intenta predecir lo mejor posible, para tener un marco aproximado de inversión. Pero no es la regla escrita en piedra, al menos no debería. Las organizaciones deben aceptar que la realidad suele ser distinta, y a veces, muy distinta de lo que los que intentamos ser “pitonisos de proyectos” podemos predecir. Aceptando este hecho seríamos más productivos, mejoraría la relación proveedor-cliente y de paso ahorraríamos varios $ en reuniones tensas e inútiles a nuestras organizaciones.</p>
+
+<p>Así mismo, un análisis de la “calidad” de la estimación basado únicamente en el índice de desviación, pierde, desde mi punto de vista, total sentido. No digo que no debería medirse, sino que es necesario complementarse con más indicadores que permitan tener una visión total de la estimación y del proyecto ejecutado (y de esa forma poder quitarle las comillas a la palabrita cuando presentemos los ratios de calidad de las estimaciones de cara a la evaluación final).</p>
+
+<p>¿Cuáles serían estos indicadores? Pues del ejemplo resulta obvio que se puede agregar un índice de variabilidad o complejidad, no sólo medida por el monto de inversión, sino por los riesgos del proyecto (por ejemplo necesidad de uso de tecnología en proceso de adopción, uso de proveedores nuevos y off-shore, número de proveedores a involucrar, etc.). Si a alguien se le ocurren más o tiene otra visión, pues bienvenido.</p>
+
+
+        </div><!-- main-content/col -->
+
+        <div class="col-xs-12 col-md-3 col-md-offset-1 single-content-sidebar-area">
+
+            <img src='/img/img/sergio.jpg' class="user-icon " alt="user-image">
+            <div class="meta">
+
+                <div class="sidebar-info">
+                    <a href="/cv/index.html">Sergio salazar</a> en <a href='/category/ingenieria'>Ingenieria</a>
+                </div>
+
+                <div class="sidebar-readtime">
+                    <i class="fa fa-bookmark"></i> 7 minutos para leer
+                </div>
+
+            </div>
+
+            <h2 class="favorites">Artículos similares</h2>
+
+            
+                
+                <div class="similar-post">
+                    <a href="/buenosingenieros.html"><h3>¿Qué nos hace buenos Ingenieros de Software?</h3></a>
+                </div>
+                
+            
+        </div>
+
+    </div> <!--/row -->
+
+</main> <!-- /container -->
+
+<footer class="single">
+    <div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-2">
+            <img src="/img/img/sergio.jpg" class="user-icon " alt="user-image">
+        </div>
+        <div class="col-xs-12 col-sm-6">
+            <div class="category-list">
+                <p>Publicado <span>Jul 7, 2018</span></p>
+                <p><a href="/cv/index.html">Sergio salazar</a> en <a href='/category/ingenieria'>Ingenieria</a></p>
+
+                <div class="other-catergories">
+                    <h3>También encontrado en </h3>
+
+                    <ul>
+                        
+                        <li>
+                            <a href='/category/ingenieria'>Ingenieria</a>
+                            ,
+                        </li>
+                        
+                        <li>
+                            <a href='/category/ingenieria'>Proyectos</a>
+                            ,
+                        </li>
+                        
+                        <li>
+                            <a href='/category/ingenieria'>Pmo</a>
+                            ,
+                        </li>
+                        
+                        <li>
+                            <a href='/category/ingenieria'>Consultoria</a>
+                            
+                        </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </div><!-- end col -->
+        <div class="col-xs-12 col-sm-4">
+            <div class="social">
+                <p>Comparte este artículo</a>
+                <div class="social-links">
+                    <a class="social-icon" href="#" data-platform="twitter" data-message="" data-url="https://salazargastelo.com/estimar-no-es-timar.html"><i class="fa fa-twitter"></i></a>
+
+                    <a class="social-icon" href="#" data-platform="facebook" data-message="" data-url="https://salazargastelo.com/estimar-no-es-timar.html"><i class="fa fa-facebook-official"></i></a>
+                    <a class="social-icon" data-platform="mail"  href="mailto:sergio@salazargastelo.com?body=https://salazargastelo.com/estimar-no-es-timar.html"><i class="fa fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </div><!-- end row -->
+</div>
+
+
+    
+        <div class="row read-another-section">
+    
+        
+        <a href="/buenosingenieros.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
+            <div class="overlay"></div>
+            <img src='/img/img/fuerza.jpg'>
+            <h3 class="read-another">¿Qué nos hace buenos Ingenieros de Software?</h3>
+        </div></a>
+        
+    
+</div>
+    
+</footer>
+
+
+    <script src='/js/vendor/modernizr.custom.32229-2.8-respondjs-1-4-2.js'></script>
+    <script src="/js/vendor/jquery-1.11.2.min.js"></script>
+    <script src='/js/vendor/jquery.jpanelmenu.min.js'></script>
+    <script type='application/javascript' src='/js/vendor/fastclick.min.js'></script>
+    
+    <script src=' /js/main.js'></script>
+  </body>
+
+</html>
