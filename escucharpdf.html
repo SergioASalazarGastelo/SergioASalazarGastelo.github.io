@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>SalazarGastelo.com | Escuchar un pdf con Festival Text-to-Speech </title>
-    <meta name="description" content="Dado que Festival no lee directamente de PDF es necesario convertir el PDF en un texto claro, sin tildes.Entonces usamos:pdttotext archivopdf.pdf archivotxt....">
+    <meta name="description" content="Dado que Festival no lee directamente de PDF es necesario convertir el PDF en un texto claro, sin tildes.Entonces usaremos algunas sentencias de pdftotext pa...">
 
     <link rel="stylesheet" href="/css/main.css">
 
@@ -83,8 +83,8 @@
             <h1>Escuchar un pdf con Festival Text-to-Speech </h1>
 
             <p>Dado que <a href="http://www.cstr.ed.ac.uk/projects/festival/">Festival</a> no lee directamente de PDF es necesario convertir el PDF en un texto claro, sin tildes.
-Entonces usamos:</p>
-<div class="language-rb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pdttotext</span> <span class="n">archivopdf</span><span class="p">.</span><span class="nf">pdf</span> <span class="n">archivotxt</span><span class="p">.</span><span class="nf">txt</span>
+Entonces usaremos algunas sentencias de pdftotext para que nos ayude en esta tarea:</p>
+<div class="language-rb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">pdftotext</span> <span class="n">archivopdf</span><span class="p">.</span><span class="nf">pdf</span> <span class="n">archivotxt</span><span class="p">.</span><span class="nf">txt</span>
 </code></pre></div></div>
 <p>Como esto último nos va a dar un archivo con tildes es necesario quitarlas</p>
 <div class="language-rb highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">sed</span> <span class="o">-</span><span class="n">i</span> <span class="n">s</span><span class="o">/</span><span class="err">á</span><span class="o">/</span><span class="n">a</span><span class="o">/</span><span class="n">g</span> <span class="n">archivotxt</span><span class="p">.</span><span class="nf">txt</span>
@@ -130,6 +130,12 @@ Entonces usamos:</p>
             
                 
                 <div class="similar-post">
+                    <a href="/consultoria_responsabilidad.html"><h3>La responsabilidad en un proyecto de consultoría</h3></a>
+                </div>
+                
+            
+                
+                <div class="similar-post">
                     <a href="/consultoria_autenticidad.html"><h3>Consultoría y autenticidad</h3></a>
                 </div>
                 
@@ -152,10 +158,6 @@ Entonces usamos:</p>
                 </div>
                 
             
-                
-                <div class="similar-post">
-                    <a href="/buenosingenieros.html"><h3>¿Qué nos hace buenos Ingenieros de Software?</h3></a>
-                </div>
                 
             
         </div>
@@ -207,6 +209,14 @@ Entonces usamos:</p>
 
     
         <div class="row read-another-section">
+    
+        
+        <a href="/consultoria_responsabilidad.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">
+            <div class="overlay"></div>
+            <img src='/img/img/responsabilidad.jpg'>
+            <h3 class="read-another">La responsabilidad en un proyecto de consultoría</h3>
+        </div></a>
+        
     
         
         <a href="/consultoria_autenticidad.html"><div class="col-sm-6 col-md-2 no-gutter read-another-container">

@@ -6,9 +6,41 @@
 </description>
     <link>https://salazargastelo.com/</link>
     <atom:link href="https://salazargastelo.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 12 Jul 2018 16:25:26 -0500</pubDate>
-    <lastBuildDate>Thu, 12 Jul 2018 16:25:26 -0500</lastBuildDate>
+    <pubDate>Fri, 13 Jul 2018 08:30:33 -0500</pubDate>
+    <lastBuildDate>Fri, 13 Jul 2018 08:30:33 -0500</lastBuildDate>
     <generator>Jekyll v3.8.3</generator>
+    
+      <item>
+        <title>La responsabilidad en un proyecto de consultoría</title>
+        <description>&lt;p&gt;Son varias las etapas en un proyecto de consultoría, pero una de las primeras acciones debería centrarse en la 
+definición de la responsabilidad sobre un proyecto determinado.&lt;/p&gt;
+
+&lt;p&gt;Generalmente un cliente cuando te contrata piensa que una vez hayas sido informado de su problema, 
+le proveerás la solución de forma instantánea. Si bien, el objetivo de la consultoría suele ser proveer soluciones en
+ base a la experiencia y el conocimiento del consultor, debe quedar claro al inicio del proyecto que la responsabilidad 
+ de lo que se planee y se lleve a cabo tiene que ser equilibrada, es decir mitad y mitad.&lt;/p&gt;
+
+&lt;p&gt;Si esto no ocurre, ya tenemos un indicador  del compromiso del cliente con respecto al proyecto y esto a su vez, 
+debería ser una señal de alarma para el consultor. Debe quedar claro desde el principio de la relación cliente-consultor cuál es el papel y
+ la responsabilidad de cada uno en el proyecto en todas las actividades, desde la comunicación hacia el interior de la organización, 
+ la interacción con proveedores si es el caso y sobre todo no perder de vista que la labor del consultor no es decidir sino facilitar la 
+ decisión  a su cliente.&lt;/p&gt;
+
+&lt;p&gt;Esto es muy arduo de conseguir, sobre todo en organizaciones que no están acostumbradas a programas de consultoría, 
+ sin embargo es posible si se define correctamente el alcance desde el principio. Aquí viene muy bien el viejo dicho que dice “lo que bien empieza …”.&lt;/p&gt;
+
+&lt;p&gt;Just my two cents!&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Jul 2018 08:43:01 -0500</pubDate>
+        <link>https://salazargastelo.com/consultoria_responsabilidad.html</link>
+        <guid isPermaLink="true">https://salazargastelo.com/consultoria_responsabilidad.html</guid>
+        
+        
+        <category>consultoria</category>
+        
+        <category>proyectos</category>
+        
+      </item>
     
       <item>
         <title>Consultoría y autenticidad</title>
@@ -169,8 +201,8 @@ El método &lt;em&gt;send&lt;/em&gt;, sirve para llamar a métodos dentro de un 
       <item>
         <title>Escuchar un pdf con Festival Text-to-Speech </title>
         <description>&lt;p&gt;Dado que &lt;a href=&quot;http://www.cstr.ed.ac.uk/projects/festival/&quot;&gt;Festival&lt;/a&gt; no lee directamente de PDF es necesario convertir el PDF en un texto claro, sin tildes.
-Entonces usamos:&lt;/p&gt;
-&lt;div class=&quot;language-rb highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pdttotext&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;archivopdf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;pdf&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;archivotxt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;txt&lt;/span&gt;
+Entonces usaremos algunas sentencias de pdftotext para que nos ayude en esta tarea:&lt;/p&gt;
+&lt;div class=&quot;language-rb highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pdftotext&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;archivopdf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;pdf&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;archivotxt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;txt&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;Como esto último nos va a dar un archivo con tildes es necesario quitarlas&lt;/p&gt;
 &lt;div class=&quot;language-rb highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;s&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;á&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;g&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;archivotxt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;txt&lt;/span&gt;
